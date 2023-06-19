@@ -1,6 +1,7 @@
 header {
   font-size: 25px;
 }
+
 .scores {
   display: flex;
   gap: 10px;
@@ -19,7 +20,6 @@ header {
 .formElements {
   display: flex;
   flex-direction: column;
-  
 }
 
 .board {
@@ -30,13 +30,14 @@ header {
 }
 
 .scoreContainer {
-  padding: 10px; 
+  padding: 10px;
   border: 2px solid black;
 }
 
 .scoreData:nth-child(odd) {
   background-color: #e67f7f;
 }
+
 .refresh {
   height: 30px;
   width: 100px;

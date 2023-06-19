@@ -1,0 +1,60 @@
+header {
+  font-size: 25px;
+}
+.scores {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.leftDiv .scrores h2 {
+  font-size: 30px;
+}
+
+.leftDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.formElements {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.board {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-left: 5rem;
+}
+
+.scoreContainer {
+  padding: 10px; 
+  border: 2px solid black;
+}
+
+.scoreData:nth-child(odd) {
+  background-color: #e67f7f;
+}
+.refresh {
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.btnSubmit {
+  width: 100px;
+  height: 30px;
+  float: right;
+  margin-top: 20px;
+  position: relative;
+  left: 220px;
+  cursor: pointer;
+}
+
+form input {
+  width: 300px;
+  padding: 10px;
+  margin-top: 20px;
+}

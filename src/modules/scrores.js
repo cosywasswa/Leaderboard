@@ -1,8 +1,8 @@
-class score{
-    constructor(name, score){
-        this.name = name;
-        this.score = score;
-    }
+class Score {
+  constructor(name, score) {
+    this.name = name;
+    this.score = score;
+  }
 }
 
-export default score;
+export default Score;

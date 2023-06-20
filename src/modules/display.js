@@ -1,15 +1,23 @@
+import { returnScores } from './refresh.js';
+
+const name = document.querySelector('#name');
+const score = document.querySelector('#scores');
 const container = document.querySelector('.scoreContainer');
 
-const display = (leaderArr) => {
-  if (leaderArr.length === 0) {
-    container.innerHTML = '<p class="msg">No player</p>';
-  }
-  leaderArr.forEach((data) => {
+const displayScores = async () => {
+  const scores = await returnScores();
+
+  container.innerHTML = '';
+
+  scores.result.forEach((score) => {
     const wrapper = document.createElement('p');
     wrapper.classList.add('scoreData');
-    wrapper.innerHTML = `${data.name}:${data.score}`;
+    wrapper.innerHTML = `${score.user}: ${score.score}`;
     container.appendChild(wrapper);
   });
+
+  name.value = '';
+  score.value = '';
 };
 
-export default display;
+export default displayScores;

@@ -12,7 +12,7 @@ const displayScores = async () => {
   scores.result.forEach((score) => {
     const wrapper = document.createElement('p');
     wrapper.classList.add('scoreData');
-    wrapper.innerHTML = `${score.user}: ${score.score}`;
+    wrapper.innerHTML = `<i class="fas fa-clock"></i> ${score.user}: ${score.score}`;
     container.appendChild(wrapper);
   });
 

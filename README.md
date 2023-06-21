@@ -17,6 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+     - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 - [Setup](#setup)
 - [Prerequisites](#prerequisites)
@@ -36,7 +37,7 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-**[The leaderboard website displays scores submitted by different players. It also allows you to submit your score and displayes the scores on the board through the use of API.]**
+**[The leaderboard website displays scores submitted by different players. It also allows you to submit your score and displayes the scores on the board through the use of API.The leader board is styled to give a feel of a game board]**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,6 +76,14 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- This is 'Leaderboard' project <a href="https://cosywasswa.github.io/Leaderboard/dist/">Live Demo Link</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -99,11 +108,10 @@ Clone this repository to your desired folder:
 ```
 
 ### To run the project
-
-Open index.html file in VS Code, run via live server extension and see how the code works.
+Perform npm run build command in your terminal to build the webPack production process.
+Use npm start command in your terminal to run the project through a live-server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-Use index.html file.
 
 <!-- AUTHORS -->
 

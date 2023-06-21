@@ -1,15 +1,40 @@
+body {
+  background-color: rgb(134, 167, 197);
+}
+
 header {
-  font-size: 25px;
+  font-size: 40px;
+  color: white;
+}
+
+header h1 {
+  margin-left: 15rem;
+  animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+    color: #f5efcb;
+  }
+
+  50% {
+    text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+    color: #eda0d3;
+  }
 }
 
 .scores {
   display: flex;
+  justify-content: space-between;
   gap: 10px;
   align-items: center;
 }
 
-.leftDiv .scrores h2 {
+h2 {
   font-size: 30px;
+  color: white;
 }
 
 .leftDiv {
@@ -24,40 +49,71 @@ header {
 
 .board {
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 100px;
   margin-left: 5rem;
 }
 
 .scoreContainer {
-  padding: 10px;
   border: 2px solid black;
+  width: 500px;
+  border-radius: 5px;
+  border-color: azure;
+}
+
+.scoreData {
+  font-size: 22px;
+  padding: 10px;
+  margin: auto;
 }
 
 .scoreData:nth-child(odd) {
   background-color: #e67f7f;
 }
 
+.scoreData:nth-child(even) {
+  background-color: white;
+}
+
 .refresh {
-  height: 30px;
+  height: 40px;
   width: 100px;
   cursor: pointer;
+  background-color: rgb(211, 224, 136);
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.refresh:hover {
+  color: blueviolet;
 }
 
 .btnSubmit {
   width: 100px;
-  height: 30px;
+  height: 40px;
   float: right;
   margin-top: 20px;
   position: relative;
   left: 220px;
   cursor: pointer;
+  background-color: rgb(211, 224, 136);
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btnSubmit:hover {
+  color: blueviolet;
 }
 
 form input {
   width: 300px;
   padding: 10px;
   margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 17px;
 }
 
 #gameBtn {

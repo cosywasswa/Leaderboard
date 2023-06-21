@@ -99,11 +99,10 @@ Clone this repository to your desired folder:
 ```
 
 ### To run the project
-
-Open index.html file in VS Code, run via live server extension and see how the code works.
+Perform npm run build command in your terminal to build the webPack production process.
+Use npm start command in your terminal to run the project through a live-server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-Use index.html file.
 
 <!-- AUTHORS -->
 

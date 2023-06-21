@@ -36,7 +36,7 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-**[The leaderboard website displays scores submitted by different players. It also allows you to submit your score and displayes the scores on the board through the use of API.]**
+**[The leaderboard website displays scores submitted by different players. It also allows you to submit your score and displayes the scores on the board through the use of API.The leader board is styled to give a feel of a game board]**
 
 ## 🛠 Built With <a name="built-with"></a>
 

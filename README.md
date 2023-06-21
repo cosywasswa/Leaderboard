@@ -5,7 +5,7 @@
  
   <br/>
 
-  <h3><b>To-Do-List</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -36,7 +36,7 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-**[The leaderboard website displays scores submitted by different players. It also allows you to submit your score and displayes the scores on the board.]**
+**[The leaderboard website displays scores submitted by different players. It also allows you to submit your score and displayes the scores on the board through the use of API.]**
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -69,9 +69,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Displays List scores]**
-- **[Addition of New scores and name]**
-- **[freshing of the board]**
+- **[Displays List of Players and scores]**
+- **[Addition of player scores and name to the API]**
+- **[refreshing of the board to fetch the API data]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +121,8 @@ Use index.html file.
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[add async functions to refresh and submit]**
-- [ ] **[add games]**
+- [ ] **[add games to API]**
+- [ ] **[Add styling]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

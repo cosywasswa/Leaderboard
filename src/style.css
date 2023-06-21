@@ -59,3 +59,16 @@ form input {
   padding: 10px;
   margin-top: 20px;
 }
+
+#gameBtn {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.newGame {
+  position: relative;
+  top: 150px;
+  right: 780px;
+  display: none;
+}
